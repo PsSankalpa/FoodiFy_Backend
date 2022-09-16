@@ -21,7 +21,7 @@ import Foodify.Backend.repository.RestaurantAboutRepository;
 
 @RestController
 @RequestMapping("/Restaurant")
-@CrossOrigin (origins = "http://localhost:3000")
+@CrossOrigin
 public class RestaurantAboutController {
 	
 	@Autowired

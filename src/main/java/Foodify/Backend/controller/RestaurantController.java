@@ -33,7 +33,7 @@ import Foodify.Backend.exception.fieldErrorResponse;
 //@RequestMapping("/Restaurant")
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 public class RestaurantController {
 
 	@Autowired

@@ -33,7 +33,7 @@ import Foodify.Backend.repository.UserRepository;
 
 @RestController
 @RequestMapping("/FoodiFy")
-@CrossOrigin (origins = "http://localhost:3000")
+@CrossOrigin
 public class AuthenticationController {
 
 	@Autowired

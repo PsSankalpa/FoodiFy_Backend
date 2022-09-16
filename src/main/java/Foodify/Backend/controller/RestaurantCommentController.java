@@ -20,7 +20,7 @@ import Foodify.Backend.model.RestaurantComments;
 import Foodify.Backend.repository.RestaurantCommentRepository;
 import Foodify.Backend.repository.RestaurantRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 @RestController
 public class RestaurantCommentController {
 	
