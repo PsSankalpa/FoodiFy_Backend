@@ -25,7 +25,6 @@ import org.springframework.web.multipart.MultipartFile;
 import Foodify.Backend.model.Complain;
 import Foodify.Backend.repository.ComplainRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class ComplainController {
 	
