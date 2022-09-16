@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import Foodify.Backend.model.FoodComment;
 import Foodify.Backend.repository.FoodCommentRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+
 @RestController
 public class FoodCommentController {
 	
