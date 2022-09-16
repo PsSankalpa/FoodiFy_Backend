@@ -29,7 +29,6 @@ import Foodify.Backend.service.Registered_Customer_Sev;
 //using cross origin annotation to communicate with react.js and spring
 
 @RestController
-@CrossOrigin (origins = "http://localhost:3000")
 public class Registered_Customer_Controller {
 
 	@Autowired
